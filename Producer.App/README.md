@@ -31,8 +31,7 @@ The **Producer App** is a console application that sends messages to the **Messa
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/message-broker-webapi.git
-   cd message-broker-webapi
+   cd message-broker
    ```
 
 2. Build the **ProducerConsumer.Impl** project to generate the DLL:
