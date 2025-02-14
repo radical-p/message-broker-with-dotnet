@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "MessageBroker.WebApi.Controllers.MessagesController",
+    "Method": "ReceiveMessage",
+    "RelativePath": "api/Messages/receive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MessageBroker.WebApi.Controllers.MessagesController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Messages/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "messageJson",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

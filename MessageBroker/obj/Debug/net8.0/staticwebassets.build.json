@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Kwj0iURxTDh09yMet1g6lbbH10J00k5FICIqtTOFSUI=",
+  "Source": "MessageBroker",
+  "BasePath": "_content/MessageBroker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,802 @@
+2025-02-15 00:06:58.312 [Information] Now listening on: "http://localhost:5026"
+2025-02-15 00:06:58.960 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-15 00:06:59.037 [Information] Hosting environment: "Development"
+2025-02-15 00:06:59.035 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/index.html""" - null null
+2025-02-15 00:06:59.052 [Information] Content root path: "C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker"
+2025-02-15 00:06:59.953 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 930.7374ms
+2025-02-15 00:07:00.069 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-02-15 00:07:00.078 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/_framework/aspnetcore-browser-refresh.js""" - 200 13778 "application/javascript; charset=utf-8" 9.3027ms
+2025-02-15 00:07:00.117 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/_vs/browserLink""" - null null
+2025-02-15 00:07:00.418 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 301.1107ms
+2025-02-15 00:07:02.150 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/v1/swagger.json""" - null null
+2025-02-15 00:07:02.187 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 37.5532ms
+2025-02-15 00:07:09.601 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:09.630 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:09.679 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:09.713 [Warning] Failed to determine the https port for redirect.
+2025-02-15 00:07:09.721 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.721 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.721 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.774 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:09.774 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:09.774 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:09.785 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:09.787 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:09.789 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:09.790 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:09.792 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:09.796 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:09.796 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:09.797 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:09.809 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 20.3293ms
+2025-02-15 00:07:09.813 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 33.3132ms
+2025-02-15 00:07:09.814 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:09.816 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.819 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.820 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 36.37ms
+2025-02-15 00:07:09.821 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 142.0589ms
+2025-02-15 00:07:09.825 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 194.6495ms
+2025-02-15 00:07:09.827 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:09.835 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 234.4246ms
+2025-02-15 00:07:11.882 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:11.883 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:11.882 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:11.886 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.887 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.890 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.891 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:11.892 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:11.893 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:11.894 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:11.898 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:11.899 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:11.899 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:11.900 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 5.6742ms
+2025-02-15 00:07:11.900 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:11.901 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.902 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:11.902 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:11.903 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 21.3451ms
+2025-02-15 00:07:11.904 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 8.6855ms
+2025-02-15 00:07:11.906 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:11.910 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.911 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:11.912 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 29.4108ms
+2025-02-15 00:07:11.913 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 15.5683ms
+2025-02-15 00:07:11.917 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:11.918 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 35.4699ms
+2025-02-15 00:07:13.908 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:13.911 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.912 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:13.914 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:13.914 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:13.915 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:13.916 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.4157ms
+2025-02-15 00:07:13.917 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.918 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 9.805ms
+2025-02-15 00:07:13.921 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:13.927 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:13.929 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.932 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.932 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:13.933 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:13.936 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:13.939 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:13.940 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:13.940 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:13.941 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 5.0927ms
+2025-02-15 00:07:13.942 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:13.943 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.944 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:13.945 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 23.8644ms
+2025-02-15 00:07:13.946 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 7.3777ms
+2025-02-15 00:07:13.950 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:13.951 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 24.2346ms
+2025-02-15 00:07:14.791 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:14.791 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:14.791 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:14.793 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:14.812 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:14.815 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:14.817 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:14.819 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:14.822 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:14.824 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:14.840 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:14.840 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:14.840 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:14.840 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:14.840 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:14.950 [Information] [AppendMessageToFile] Message saved to file: "Message 2"
+2025-02-15 00:07:14.954 [Information] [SendMessage] Message enqueued and saved: "Message 2"
+2025-02-15 00:07:14.956 [Information] [AppendMessageToFile] Message saved to file: "Message 3"
+2025-02-15 00:07:14.960 [Information] [SendMessage] Message enqueued and saved: "Message 3"
+2025-02-15 00:07:14.962 [Information] [AppendMessageToFile] Message saved to file: "Message 4"
+2025-02-15 00:07:14.967 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:14.967 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:14.973 [Information] [SendMessage] Message enqueued and saved: "Message 4"
+2025-02-15 00:07:14.987 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 143.6741ms
+2025-02-15 00:07:14.991 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 145.2713ms
+2025-02-15 00:07:14.993 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:14.994 [Information] [AppendMessageToFile] Message saved to file: "Message 1"
+2025-02-15 00:07:15.001 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.005 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.007 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 155.7951ms
+2025-02-15 00:07:15.010 [Information] [SendMessage] Message enqueued and saved: "Message 1"
+2025-02-15 00:07:15.015 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 224.5149ms
+2025-02-15 00:07:15.026 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 235.9418ms
+2025-02-15 00:07:15.099 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.102 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:15.102 [Information] [AppendMessageToFile] Message saved to file: "Message 5"
+2025-02-15 00:07:15.149 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:15.155 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:07:15.156 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 364.5463ms
+2025-02-15 00:07:15.158 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 316.5456ms
+2025-02-15 00:07:15.167 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.162 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.163 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.159 [Information] [SendMessage] Message enqueued and saved: "Message 5"
+2025-02-15 00:07:15.169 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 376.1419ms
+2025-02-15 00:07:15.170 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:15.171 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:15.172 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:15.184 [Information] [AppendMessageToFile] Message saved to file: "Message 6"
+2025-02-15 00:07:15.192 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 343.0729ms
+2025-02-15 00:07:15.192 [Information] [SendMessage] Message enqueued and saved: "Message 6"
+2025-02-15 00:07:15.193 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.194 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:15.202 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 25.2618ms
+2025-02-15 00:07:15.197 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 385.127ms
+2025-02-15 00:07:15.195 [Information] [AppendMessageToFile] Message saved to file: "Message 7"
+2025-02-15 00:07:15.212 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.258 [Information] [SendMessage] Message enqueued and saved: "Message 7"
+2025-02-15 00:07:15.266 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 117.6563ms
+2025-02-15 00:07:15.267 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:15.840 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 653.7877ms
+2025-02-15 00:07:15.842 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:07:15.843 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 687.8224ms
+2025-02-15 00:07:15.990 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:15.990 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:15.990 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:15.997 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.000 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.002 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.003 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.005 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.006 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.009 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.014 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.033 [Information] [ReceiveMessage] Message received: "Message 2"
+2025-02-15 00:07:16.039 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.039 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.044 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.046 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 37.6172ms
+2025-02-15 00:07:16.052 [Information] [ReceiveMessage] Message received: "Message 3"
+2025-02-15 00:07:16.054 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.054 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.055 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 65.8642ms
+2025-02-15 00:07:16.057 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 45.74ms
+2025-02-15 00:07:16.062 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.062 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.063 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 73.5142ms
+2025-02-15 00:07:16.065 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.087 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.088 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.089 [Information] [ReceiveMessage] Message received: "Message 4"
+2025-02-15 00:07:16.091 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.093 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.094 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.095 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.096 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.097 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 84.65ms
+2025-02-15 00:07:16.099 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.103 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.104 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.106 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 115.8031ms
+2025-02-15 00:07:16.108 [Information] [ReceiveMessage] Message received: "Message 1"
+2025-02-15 00:07:16.111 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.111 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.112 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.114 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.119 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 20.5051ms
+2025-02-15 00:07:16.122 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.122 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.126 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.127 [Information] [ReceiveMessage] Message received: "Message 5"
+2025-02-15 00:07:16.136 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 48.7649ms
+2025-02-15 00:07:16.138 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.138 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.140 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.142 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 40.5039ms
+2025-02-15 00:07:16.144 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.149 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.156 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.157 [Information] [ReceiveMessage] Message received: "Message 6"
+2025-02-15 00:07:16.158 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.159 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 71.2092ms
+2025-02-15 00:07:16.160 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.164 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.173 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.176 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 48.4388ms
+2025-02-15 00:07:16.181 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:07:16.196 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.197 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.198 [Information] [ReceiveMessage] Message received: "Message 7"
+2025-02-15 00:07:16.199 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.200 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 88.7372ms
+2025-02-15 00:07:16.202 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:07:16.224 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.227 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.228 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 64.4422ms
+2025-02-15 00:07:16.228 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:16.231 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.231 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.232 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:16.235 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.237 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 96.9905ms
+2025-02-15 00:07:16.240 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 16.0136ms
+2025-02-15 00:07:16.244 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.246 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:16.248 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.249 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:16.252 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.254 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 81.0502ms
+2025-02-15 00:07:16.256 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:16.257 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:16.260 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 16.9764ms
+2025-02-15 00:07:16.262 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:16.263 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.264 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:16.265 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 38.1032ms
+2025-02-15 00:07:16.265 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:16.271 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 9.1534ms
+2025-02-15 00:07:16.272 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:16.273 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 26.9651ms
+2025-02-15 00:07:18.286 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:18.286 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:18.286 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:18.290 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.293 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.295 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.296 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:18.298 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:18.299 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:18.303 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:18.307 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:18.308 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:18.308 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:18.309 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 6.798ms
+2025-02-15 00:07:18.310 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:18.311 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.312 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:18.312 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:18.313 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 26.7769ms
+2025-02-15 00:07:18.314 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 9.6478ms
+2025-02-15 00:07:18.315 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:18.320 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.321 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:18.322 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 35.871ms
+2025-02-15 00:07:18.323 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 16.5679ms
+2025-02-15 00:07:18.328 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:18.329 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 42.5996ms
+2025-02-15 00:07:20.337 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:20.362 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:20.362 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:20.419 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.422 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.424 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.426 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:20.427 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:20.429 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:20.431 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:20.437 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:20.437 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:20.438 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 7.1523ms
+2025-02-15 00:07:20.438 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:20.439 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.446 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:20.449 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 112.1625ms
+2025-02-15 00:07:20.451 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:20.451 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:20.460 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 25.7344ms
+2025-02-15 00:07:20.462 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:20.464 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.466 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:20.467 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 104.527ms
+2025-02-15 00:07:20.468 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 31.7574ms
+2025-02-15 00:07:20.471 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:20.472 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 110.0992ms
+2025-02-15 00:07:22.454 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:22.458 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.458 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:22.460 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:22.461 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:22.461 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:22.463 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.8142ms
+2025-02-15 00:07:22.464 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.465 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 11.3515ms
+2025-02-15 00:07:22.483 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:22.483 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:22.486 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.488 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.489 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:22.490 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:22.492 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:22.494 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:22.495 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:22.495 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:22.496 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.3258ms
+2025-02-15 00:07:22.497 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:22.500 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.501 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:22.502 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 19.3661ms
+2025-02-15 00:07:22.503 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 10.3904ms
+2025-02-15 00:07:22.506 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:22.507 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 24.0088ms
+2025-02-15 00:07:24.482 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:24.485 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:24.487 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:24.489 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:24.490 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:24.490 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:24.491 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.8823ms
+2025-02-15 00:07:24.493 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:24.495 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 13.1512ms
+2025-02-15 00:07:24.511 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:24.511 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:07:24.514 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:24.517 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:24.518 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:24.519 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:07:24.520 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:24.523 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:24.524 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:24.524 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:07:24.525 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.5261ms
+2025-02-15 00:07:24.525 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:07:25.590 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:07:25.591 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:07:25.593 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 1082.4386ms
+2025-02-15 00:08:21.094 [Information] Now listening on: "http://localhost:5026"
+2025-02-15 00:08:21.564 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-15 00:08:21.569 [Information] Hosting environment: "Development"
+2025-02-15 00:08:21.570 [Information] Content root path: "C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker"
+2025-02-15 00:08:22.001 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/index.html""" - null null
+2025-02-15 00:08:22.476 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 462.9103ms
+2025-02-15 00:08:22.655 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/_vs/browserLink""" - null null
+2025-02-15 00:08:22.659 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-02-15 00:08:22.719 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/_framework/aspnetcore-browser-refresh.js""" - 200 13778 "application/javascript; charset=utf-8" 59.8761ms
+2025-02-15 00:08:22.779 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 125.7934ms
+2025-02-15 00:08:24.520 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/v1/swagger.json""" - null null
+2025-02-15 00:08:24.562 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 41.374ms
+2025-02-15 00:08:31.593 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:31.600 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:31.605 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:31.617 [Warning] Failed to determine the https port for redirect.
+2025-02-15 00:08:31.623 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.623 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.623 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.664 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:31.664 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:31.664 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:31.672 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:31.673 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:31.674 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:31.675 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:31.676 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:31.677 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:31.679 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:31.679 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:31.679 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:31.685 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 13.9996ms
+2025-02-15 00:08:31.685 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 13.4769ms
+2025-02-15 00:08:31.685 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 10.3079ms
+2025-02-15 00:08:31.687 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.687 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.688 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:31.689 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 93.5443ms
+2025-02-15 00:08:31.690 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 84.948ms
+2025-02-15 00:08:31.691 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 97.89ms
+2025-02-15 00:08:33.710 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:33.711 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:33.714 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:33.722 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.728 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.731 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.732 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:33.738 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:33.743 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:33.747 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:33.755 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:33.757 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:33.757 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:33.758 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 11.0259ms
+2025-02-15 00:08:33.759 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:33.760 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.761 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:33.761 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:33.762 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 51.5159ms
+2025-02-15 00:08:33.763 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 10.5606ms
+2025-02-15 00:08:33.768 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:33.773 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.774 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:33.775 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 64.3124ms
+2025-02-15 00:08:33.776 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 21.2818ms
+2025-02-15 00:08:33.780 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:33.781 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 67.8553ms
+2025-02-15 00:08:35.779 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:35.808 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:35.808 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:35.809 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.822 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.831 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.834 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:35.837 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:35.840 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:35.844 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:35.852 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:35.854 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:35.854 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:35.856 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 11.7421ms
+2025-02-15 00:08:35.856 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:35.858 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.859 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:35.859 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:35.861 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 83.0604ms
+2025-02-15 00:08:35.866 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 17.3934ms
+2025-02-15 00:08:35.867 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:35.873 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.874 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:35.875 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 67.8ms
+2025-02-15 00:08:35.876 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 25.7653ms
+2025-02-15 00:08:35.883 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:35.885 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 76.9618ms
+2025-02-15 00:08:37.868 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:37.873 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.874 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:37.876 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:37.877 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:37.877 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:37.878 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.6536ms
+2025-02-15 00:08:37.880 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.881 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 13.1657ms
+2025-02-15 00:08:37.886 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:37.889 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.890 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:37.892 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:37.893 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:37.894 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:37.894 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.6496ms
+2025-02-15 00:08:37.896 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.898 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 11.3825ms
+2025-02-15 00:08:37.900 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:37.905 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.906 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:37.908 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:37.909 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:37.910 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:37.911 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.8578ms
+2025-02-15 00:08:37.912 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:37.918 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 17.7739ms
+2025-02-15 00:08:38.612 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.618 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.618 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.623 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.620 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.644 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.649 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.652 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.657 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.661 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.679 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.679 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.679 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.679 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.683 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.758 [Information] [AppendMessageToFile] Message saved to file: "Message 1"
+2025-02-15 00:08:38.762 [Information] [SendMessage] Message enqueued and saved: "Message 1"
+2025-02-15 00:08:38.767 [Information] [AppendMessageToFile] Message saved to file: "Message 2"
+2025-02-15 00:08:38.772 [Information] [SendMessage] Message enqueued and saved: "Message 2"
+2025-02-15 00:08:38.774 [Information] [AppendMessageToFile] Message saved to file: "Message 5"
+2025-02-15 00:08:38.776 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:38.776 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:38.777 [Information] [SendMessage] Message enqueued and saved: "Message 5"
+2025-02-15 00:08:38.785 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:38.786 [Information] [AppendMessageToFile] Message saved to file: "Message 3"
+2025-02-15 00:08:38.790 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 106.6189ms
+2025-02-15 00:08:38.790 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 103.8902ms
+2025-02-15 00:08:38.792 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 101.4787ms
+2025-02-15 00:08:38.793 [Information] [SendMessage] Message enqueued and saved: "Message 3"
+2025-02-15 00:08:38.815 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:38.804 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.808 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.799 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.816 [Information] [AppendMessageToFile] Message saved to file: "Message 4"
+2025-02-15 00:08:38.831 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 125.581ms
+2025-02-15 00:08:38.835 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 211.9177ms
+2025-02-15 00:08:38.843 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 231.9495ms
+2025-02-15 00:08:38.850 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 231.6317ms
+2025-02-15 00:08:38.851 [Information] [SendMessage] Message enqueued and saved: "Message 4"
+2025-02-15 00:08:38.852 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.856 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.859 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - "application/json; charset=utf-8" 15
+2025-02-15 00:08:38.866 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:38.867 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 248.9679ms
+2025-02-15 00:08:38.871 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.878 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.883 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 174.4709ms
+2025-02-15 00:08:38.890 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.891 [Information] Route matched with "{action = \"SendMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMessage(System.Text.Json.JsonElement)" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:38.901 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:38.977 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 356.6508ms
+2025-02-15 00:08:38.981 [Information] [AppendMessageToFile] Message saved to file: "Message 6"
+2025-02-15 00:08:39.001 [Information] [SendMessage] Message enqueued and saved: "Message 6"
+2025-02-15 00:08:39.003 [Information] [AppendMessageToFile] Message saved to file: "Message 7"
+2025-02-15 00:08:39.003 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:39.010 [Information] [SendMessage] Message enqueued and saved: "Message 7"
+2025-02-15 00:08:39.024 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 113.7282ms
+2025-02-15 00:08:39.033 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:39.049 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:39.051 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)" in 123.6738ms
+2025-02-15 00:08:39.075 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.SendMessage (MessageBroker)"'
+2025-02-15 00:08:39.059 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 202.6188ms
+2025-02-15 00:08:39.092 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5026""""/api/Messages/send""" - 200 null "application/json; charset=utf-8" 232.6882ms
+2025-02-15 00:08:39.923 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:39.927 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:39.945 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:39.947 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:39.949 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:39.952 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:39.953 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:39.954 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:39.955 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:39.958 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:39.964 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:39.982 [Information] [ReceiveMessage] Message received: "Message 1"
+2025-02-15 00:08:39.983 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:39.983 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:39.986 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:39.988 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 31.2192ms
+2025-02-15 00:08:39.999 [Information] [ReceiveMessage] Message received: "Message 2"
+2025-02-15 00:08:40.000 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.001 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.003 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 80.5646ms
+2025-02-15 00:08:40.008 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.013 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 54.666ms
+2025-02-15 00:08:40.061 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.068 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:40.076 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.085 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.086 [Information] [ReceiveMessage] Message received: "Message 5"
+2025-02-15 00:08:40.092 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.090 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.087 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 160.9257ms
+2025-02-15 00:08:40.094 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 132.0243ms
+2025-02-15 00:08:40.121 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.110 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.162 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.126 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 181.0044ms
+2025-02-15 00:08:40.101 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.167 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.174 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.197 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:40.248 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.251 [Information] [ReceiveMessage] Message received: "Message 3"
+2025-02-15 00:08:40.264 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.268 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.370 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 269.9951ms
+2025-02-15 00:08:40.268 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.388 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.390 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:40.423 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 361.9664ms
+2025-02-15 00:08:40.434 [Information] [ReceiveMessage] Message received: "Message 4"
+2025-02-15 00:08:40.441 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.442 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.442 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.447 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.448 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 204.922ms
+2025-02-15 00:08:40.450 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:40.451 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.453 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.454 [Information] [ReceiveMessage] Message received: "Message 6"
+2025-02-15 00:08:40.456 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 346.8513ms
+2025-02-15 00:08:40.459 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.459 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.464 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.465 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 131.8387ms
+2025-02-15 00:08:40.467 [Information] [SaveMessagesToFile] Updated message list saved to file.
+2025-02-15 00:08:40.469 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.471 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.472 [Information] [ReceiveMessage] Message received: "Message 7"
+2025-02-15 00:08:40.473 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.475 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 301.5228ms
+2025-02-15 00:08:40.481 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+2025-02-15 00:08:40.485 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.492 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.496 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 40.7516ms
+2025-02-15 00:08:40.500 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:40.503 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.506 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.507 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:40.508 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.510 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 200 null "application/json; charset=utf-8" 68.5622ms
+2025-02-15 00:08:40.512 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 27.4868ms
+2025-02-15 00:08:40.515 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.517 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:40.519 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.521 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:40.525 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.527 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 62.4591ms
+2025-02-15 00:08:40.529 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:40.530 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:40.534 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 19.5877ms
+2025-02-15 00:08:40.537 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:40.539 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.540 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:40.541 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 48.7862ms
+2025-02-15 00:08:40.542 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:40.547 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 10.7392ms
+2025-02-15 00:08:40.548 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:40.550 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 32.1251ms
+2025-02-15 00:08:42.537 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:42.540 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.541 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:42.543 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:42.543 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:42.544 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:42.545 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 2.6015ms
+2025-02-15 00:08:42.546 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.547 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 9.7821ms
+2025-02-15 00:08:42.569 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:42.569 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:42.571 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.573 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.574 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:42.575 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:42.577 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:42.579 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:42.580 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:42.580 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:42.581 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.3525ms
+2025-02-15 00:08:42.582 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:42.584 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.585 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:42.586 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 17.8357ms
+2025-02-15 00:08:42.587 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 9.1066ms
+2025-02-15 00:08:42.591 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:42.592 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 23.7056ms
+2025-02-15 00:08:44.561 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:44.566 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.567 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:44.569 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:44.571 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:44.572 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:44.573 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 3.3642ms
+2025-02-15 00:08:44.574 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.575 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 13.8056ms
+2025-02-15 00:08:44.593 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:44.598 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.600 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:44.602 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:44.604 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:44.604 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:44.606 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.3028ms
+2025-02-15 00:08:44.609 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:44.610 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.614 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.615 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 21.6503ms
+2025-02-15 00:08:44.616 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:44.621 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:44.622 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:44.623 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:44.624 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 3.3154ms
+2025-02-15 00:08:44.626 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:44.627 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 20.0289ms
+2025-02-15 00:08:46.581 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:46.584 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.585 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:46.588 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:46.589 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:46.590 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:46.591 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 3.859ms
+2025-02-15 00:08:46.593 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.594 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 13.0164ms
+2025-02-15 00:08:46.628 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:46.628 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:46.632 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.634 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.635 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:46.636 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:46.638 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:46.640 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:46.641 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:46.641 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:46.642 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.0819ms
+2025-02-15 00:08:46.642 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:46.644 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.645 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:46.646 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 17.9922ms
+2025-02-15 00:08:46.647 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 7.9366ms
+2025-02-15 00:08:46.651 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:46.652 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 23.9028ms
+2025-02-15 00:08:48.610 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:48.615 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.617 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:48.621 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:48.622 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:48.623 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:48.624 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 3.7599ms
+2025-02-15 00:08:48.627 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.629 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 18.7391ms
+2025-02-15 00:08:48.658 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:48.658 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:48.662 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.664 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.666 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:48.667 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:48.669 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:48.675 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:48.676 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:48.676 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:48.677 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 7.9825ms
+2025-02-15 00:08:48.678 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:48.679 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.680 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:48.682 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 24.3405ms
+2025-02-15 00:08:48.683 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 9.8897ms
+2025-02-15 00:08:48.692 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:48.694 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 35.9143ms
+2025-02-15 00:08:50.645 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:50.655 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.659 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:50.665 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:50.667 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:50.669 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:50.670 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 6.2617ms
+2025-02-15 00:08:50.674 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.678 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 33.1395ms
+2025-02-15 00:08:50.705 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:50.705 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:50.710 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.712 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.713 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:50.714 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:50.716 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:50.723 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:50.724 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:50.724 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:50.726 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 10.2552ms
+2025-02-15 00:08:50.727 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:50.729 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.730 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:50.731 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 26.9606ms
+2025-02-15 00:08:50.735 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 17.1149ms
+2025-02-15 00:08:50.740 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:50.742 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 37.2808ms
+2025-02-15 00:08:52.687 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:52.690 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.691 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:52.693 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:52.695 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:52.697 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:52.698 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.6245ms
+2025-02-15 00:08:52.699 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.701 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 13.8238ms
+2025-02-15 00:08:52.733 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:52.738 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.740 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:52.742 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:52.744 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:52.744 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:52.746 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 3.3515ms
+2025-02-15 00:08:52.747 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.751 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - null null
+2025-02-15 00:08:52.753 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 20.1365ms
+2025-02-15 00:08:52.757 [Information] Executing endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.762 [Information] Route matched with "{action = \"ReceiveMessage\", controller = \"Messages\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ReceiveMessage()" on controller "MessageBroker.WebApi.Controllers.MessagesController" ("MessageBroker").
+2025-02-15 00:08:52.765 [Information] [LoadMessagesFromFile] Messages loaded from file.
+2025-02-15 00:08:52.766 [Information] [ReceiveMessage] No messages available.
+2025-02-15 00:08:52.768 [Information] Executing StatusCodeResult, setting HTTP status code 204
+2025-02-15 00:08:52.769 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 4.3853ms
+2025-02-15 00:08:52.770 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
+2025-02-15 00:08:52.772 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 20.9271ms

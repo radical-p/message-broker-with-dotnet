@@ -1,0 +1,12 @@
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\Producer.App.exe.config
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\Producer.App.exe
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\Producer.App.pdb
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\ProducerConsumer.Interfaces.dll
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\ProducerConsumer.Interfaces.pdb
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\obj\Debug\Producer.App.csproj.AssemblyReference.cache
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\obj\Debug\Producer.App.csproj.CoreCompileInputs.cache
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\obj\Debug\Producer.9AFBE453.Up2Date
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\obj\Debug\Producer.App.exe
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\obj\Debug\Producer.App.pdb
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Radikal\source\repos\BootcampSolution\Producer.App\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MessageBroker",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Messages/send": {
+      "post": {
+        "tags": [
+          "Messages"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { }
+            },
+            "text/json": {
+              "schema": { }
+            },
+            "application/*+json": {
+              "schema": { }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Messages/receive": {
+      "get": {
+        "tags": [
+          "Messages"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
