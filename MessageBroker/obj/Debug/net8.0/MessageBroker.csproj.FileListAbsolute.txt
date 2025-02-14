@@ -27,7 +27,6 @@ C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\st
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MessageBroker.props
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MessageBroker.props
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\MessageB.6D94695A.Up2Date
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\MessageBroker.dll
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\refint\MessageBroker.dll
@@ -60,3 +59,4 @@ C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\bin\Debug\net8.0\Sy
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Radikal\source\repos\BootcampSolution\MessageBroker\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
