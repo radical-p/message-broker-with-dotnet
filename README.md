@@ -98,7 +98,7 @@ The Web API will be available at:
    ```
 2. Run the `.exe` file:
    ```bash
-   .\ProducerApp.exe
+   .\Producer.App.exe
    ```
 
 ---
@@ -111,7 +111,7 @@ The Web API will be available at:
    ```
 2. Run the `.exe` file:
    ```bash
-   .\ConsumerApp.exe
+   .\Consumer.App.exe
    ```
 
 ---
