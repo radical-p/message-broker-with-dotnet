@@ -31,7 +31,8 @@ The **Consumer App** is a console application that consumes messages from the **
 ### Installation
 1. Clone the repository:
    ```bash
-   cd message-broker
+   git clone https://github.com/radical-p/message-broker-with-dotnet.git
+   cd message-broker-with-dotnet
    ```
 
 2. Build the **ProducerConsumer.Impl** project to generate the DLL:
