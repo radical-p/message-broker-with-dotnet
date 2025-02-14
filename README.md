@@ -59,7 +59,7 @@ message-broker/
 1. Clone the repository:
    ```bash
    git clone https://github.com/radical-p/message-broker-with-dotnet.git
-   cd message-broker
+   cd message-broker-with-dotnet
    ```
 
 2. Install the required NuGet packages:
@@ -79,7 +79,7 @@ message-broker/
 ### Running the Application
 1. Start the **Message Broker Web API**:
    ```bash
-   dotnet run --project MessageBroker.WebApi
+   dotnet run --project MessageBroker
    ```
 
 2. Run the **ConsumerApp**:
