@@ -77,19 +77,41 @@ message-broker/
 ---
 
 ### Running the Application
-1. Start the **Message Broker Web API**:
+
+#### **1. Start the Message Broker Web API**
+Run the following command from the root of the repository:
+```bash
+dotnet run --project MessageBroker
+```
+
+The Web API will be available at:
+- **Send Message**: `POST http://localhost:5026/api/messages/send`
+- **Receive Message**: `GET http://localhost:5026/api/messages/receive`
+
+---
+
+#### **2. Run the ProducerApp**
+##### Using the `.exe` File
+1. Navigate to the `ProducerApp` `bin` directory:
    ```bash
-   dotnet run --project MessageBroker
+   cd .\ProducerApp\bin\Debug\
+   ```
+2. Run the `.exe` file:
+   ```bash
+   .\Producer.App.exe
    ```
 
-2. Run the **ConsumerApp**:
-   ```bash
-   dotnet run --project ConsumerApp
-   ```
+---
 
-3. Run the **ProducerApp**:
+#### **3. Run the ConsumerApp**
+##### Using the `.exe` File
+1. Navigate to the `ConsumerApp` `bin` directory:
    ```bash
-   dotnet run --project ProducerApp
+   cd .\ConsumerApp\bin\Debug\
+   ```
+2. Run the `.exe` file:
+   ```bash
+   .\Consumer.App.exe
    ```
 
 ---
