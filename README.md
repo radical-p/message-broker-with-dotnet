@@ -35,7 +35,7 @@ The **Message Broker Project** is a complete system for managing message exchang
 ## Project Structure
 ```
 message-broker/
-├── MessageBroker.WebApi/          # Web API project
+├── MessageBroker/          # Web API project
 │   ├── Controllers/               # API controllers
 │   ├── Program.cs                 # Entry point and Serilog configuration
 │   └── appsettings.json           # Configuration file
