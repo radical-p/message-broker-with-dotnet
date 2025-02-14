@@ -4,3 +4,9 @@ C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Interfaces\obj\D
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.dll
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.pdb
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\bin\Debug\ProducerConsumer.Interfaces.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\bin\Debug\ProducerConsumer.Interfaces.pdb
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.csproj.AssemblyReference.cache
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Interfaces\obj\Debug\ProducerConsumer.Interfaces.pdb

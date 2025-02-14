@@ -3241,3 +3241,8 @@
 2025-02-15 01:42:04.423 [Information] Executed action "MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)" in 5.6101ms
 2025-02-15 01:42:04.424 [Information] Executed endpoint '"MessageBroker.WebApi.Controllers.MessagesController.ReceiveMessage (MessageBroker)"'
 2025-02-15 01:42:04.425 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5026""""/api/Messages/receive""" - 204 null null 19.7463ms
+2025-02-15 01:58:15.249 [Information] Now listening on: "http://localhost:5026"
+2025-02-15 01:58:15.338 [Information] Application started. Press Ctrl+C to shut down.
+2025-02-15 01:58:15.342 [Information] Hosting environment: "Development"
+2025-02-15 01:58:15.346 [Information] Content root path: "C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\MessageBroker"
+2025-02-15 01:58:21.315 [Information] Application is shutting down...

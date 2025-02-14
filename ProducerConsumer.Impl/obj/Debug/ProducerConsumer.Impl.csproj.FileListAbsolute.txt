@@ -9,3 +9,14 @@ C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Impl\obj\Debug\P
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Impl\obj\Debug\ProducerConsumer.Impl.pdb
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Impl\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Radikal\source\repos\BootcampSolution\ProducerConsumer.Impl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\ProducerConsumer.Impl.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\ProducerConsumer.Impl.pdb
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\ProducerConsumer.Interfaces.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\ProducerConsumer.Interfaces.pdb
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\obj\Debug\ProducerConsumer.Impl.csproj.AssemblyReference.cache
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\obj\Debug\ProducerConsumer.Impl.csproj.CoreCompileInputs.cache
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\obj\Debug\Producer.6C7BBF6F.Up2Date
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\obj\Debug\ProducerConsumer.Impl.dll
+C:\Users\Radikal\Documents\GitHub\message-broker-with-dotnet\ProducerConsumer.Impl\obj\Debug\ProducerConsumer.Impl.pdb

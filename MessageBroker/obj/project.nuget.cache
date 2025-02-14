@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mc1O2y2QY3c=",
+  "dgSpecHash": "o7oS1IR1TOA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Radikal\\source\\repos\\BootcampSolution\\MessageBroker\\MessageBroker.csproj",
+  "projectFilePath": "C:\\Users\\Radikal\\Documents\\GitHub\\message-broker-with-dotnet\\MessageBroker\\MessageBroker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Radikal\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Radikal\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
