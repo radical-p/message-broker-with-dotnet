@@ -19,7 +19,6 @@ class Program
             return;
         }
 
-        // Load the producer implementation from the DLL
         Assembly assembly = Assembly.LoadFrom(dllPath);
         Type producerType = assembly.GetTypes()
             .FirstOrDefault(t => typeof(IProducer).IsAssignableFrom(t) && !t.IsInterface);
@@ -30,12 +29,10 @@ class Program
             return;
         }
 
-        // Create an instance of the producer
         IProducer producer = (IProducer)Activator.CreateInstance(producerType);
 
         Console.WriteLine($"\n[System] Producer configured with {producer.MaxThreads} max threads");
 
-        // List of messages to send
         List<string> messages = new List<string>
         {
             "Message 1",
@@ -46,13 +43,14 @@ class Program
 
         string endpoint = "http://localhost:5026/api/Messages/send";
 
-        // Send messages sequentially
-        foreach (var msg in messages)
+        // Send messages concurrently
+        var tasks = messages.Select(async msg =>
         {
             string jsonMessage = JsonConvert.SerializeObject(msg);
             await producer.SendAsync(jsonMessage, endpoint);
-        }
+        });
 
+        await Task.WhenAll(tasks);
         Console.WriteLine("\n[System] All messages processed");
     }
 }
