@@ -34,8 +34,8 @@ This is a **Message Broker Web API** built using **ASP.NET Core** and **C#**. It
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/message-broker-webapi.git
-   cd message-broker-webapi
+   git clone https://github.com/radical-p/message-broker-with-dotnet.git
+   cd message-broker-with-dotnet
    ```
 
 2. Install the required NuGet packages:
