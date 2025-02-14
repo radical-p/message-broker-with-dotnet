@@ -51,7 +51,6 @@ message-broker/
 ## Getting Started
 
 ### Prerequisites
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - An IDE (e.g., [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/))
 
 ---
